@@ -226,6 +226,7 @@ nav {
 
 .colors, .sizes {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .color{
@@ -239,4 +240,27 @@ nav {
 
 .color:last-child {
     background-color: darkblue;
+}
+
+.size {
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;    
+    font-size: 20px;
+}
+
+.productButton {
+    float: right;
+    padding: 10px 20px ;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.productButton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
