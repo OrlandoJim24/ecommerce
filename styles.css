@@ -229,6 +229,54 @@ nav {
     font-size: 20px;
     color: lightgray;
 }
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payInput {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchInput::placeholder {
+    color:gray;
+}
+
+.cardIcons {
+    display: flex;
+}
+
+.cardIcon{
+    margin-right: 10px;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm {
+    width: 30%;
+}
+
+.payButton {
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%; 
+    left: 0;
+    box-shadow: 2px 4px 45px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 4px 45px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 45px -7px rgba(0,0,0,0.75);
+background-color: rgb(32, 189, 32);
+color: white;
+border: none;
+cursor: pointer;
+}
 .productImg{
     width: 50%;
 }
