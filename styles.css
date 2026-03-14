@@ -277,6 +277,21 @@ color: white;
 border: none;
 cursor: pointer;
 }
+
+.close {
+    position: absolute;
+    width: 20px;    
+    height: 20px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px;
+}
 .productImg{
     width: 50%;
 }
