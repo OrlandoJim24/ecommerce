@@ -218,7 +218,7 @@ nav {
     left: 0;
     margin: auto;
     padding: 10px 50px;
-    display: flex;
+    display: none;
     flex-direction: column;
     box-shadow: 2px 4px 45px -7px rgba(0,0,0,0.75);
 -webkit-box-shadow: 2px 4px 45px -7px rgba(0,0,0,0.75);
