@@ -245,6 +245,9 @@ nav {
     transform: scale(1.05);
 }
 
+.productDetails {
+    padding: 60px;
+}
 @keyframes modalSlideUp {
     from {
         opacity: 0;
