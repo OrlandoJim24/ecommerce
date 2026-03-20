@@ -234,6 +234,17 @@ nav {
     animation: modalSlideUp 0.4s ease-out;
 }
 
+
+.productButton {
+    transition: all 0.3s ease;
+}
+
+.productButton:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
 @keyframes modalSlideUp {
     from {
         opacity: 0;
