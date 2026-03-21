@@ -125,13 +125,14 @@ nav {
     background-color: black;
     z-index: 1;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .buyButton:hover {
     background-color: white;
     color: black;
+    transform: scale(1.05);
 }
-
 .sliderItem:nth-child(1) .sliderBg {
     background-color:#369e62;
 }
@@ -246,7 +247,7 @@ nav {
 }
 
 .productDetails {
-    padding: 60px;
+    padding: 360px;
 }
 @keyframes modalSlideUp {
     from {
@@ -371,6 +372,8 @@ label {
 .color:last-child {
     background-color: darkblue;
 }
+
+
 
 .size {
     padding: 5px 20px;
