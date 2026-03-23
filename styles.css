@@ -128,11 +128,7 @@ nav {
     transition: all 0.3s ease;
 }
 
-.buyButton:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.05);
-}
+
 .sliderItem:nth-child(1) .sliderBg {
     background-color:#369e62;
 }
@@ -252,6 +248,12 @@ nav {
     transition: all 0.3s ease;
 }
 
+.buyButton,
+.productButton {
+    transition: all 0.3s ease;
+}
+
+.buyButton:hover,
 .productButton:hover {
     background-color: white;
     color: black;
