@@ -374,6 +374,11 @@ label {
     margin-bottom: 20px;
 }
 
+
+.color:last-child {
+    background-color: darkblue;
+}
+
 .color{
     width: 32px;    
     height: 32px;
@@ -381,12 +386,17 @@ label {
     background-color: black;
     margin-right: 10px;
     cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
 }
 
-.color:last-child {
-    background-color: darkblue;
+.color:hover {
+    transform: scale(1.1);
 }
 
+.color.active {
+    border: 2px solid black;
+}
 
 
 .size {
