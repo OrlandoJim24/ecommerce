@@ -68,7 +68,7 @@ nav {
 .sliderWrapper {
     display: flex;
     width: 500vw;
-    transition: all 1.5s ease-in-out;
+    transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .sliderItem {
